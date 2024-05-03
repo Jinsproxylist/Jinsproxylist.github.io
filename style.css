@@ -19,5 +19,11 @@ body {
 	body {
       cursor: url('blob:chrome-untrusted://media-app/72c5bf0a-3bbe-45b0-8b5d-b558d59a88a7'), auto;
 }
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </style>
 </head>
