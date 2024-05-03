@@ -1,46 +1,33 @@
-	<html>
-		body {
-  margin: 0;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: green;
+  color: black;
+  font-size: 25px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
+.dark-mode {
+  background-color: navy;
   color: white;
 }
 </style>
 </head>
 <body>
 
-		<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-		<h1>Welcome to Jin's Proxy List.<br>Here you will find a bunch of proxy links and even some game links for you to use at school
-		</h1>
-			<p>This site will be seperating all of the proxy and game links. Some of the proxy will be Doge, Intersteller, Utopia, Rammerhead, Sunset, Polaris, and more. Enjoy all of the Links! </p>
-	</html>
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myFunction()"> Dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+<body>
+	<strong>Welcome to Jins Proxy List.</strong>
+</body>
